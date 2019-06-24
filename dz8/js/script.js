@@ -68,7 +68,7 @@ window.addEventListener('DOMContentLoaded', function() {
 	      upClock();
 	      let timeinterval = setInterval(upClock, 1000);
 	    }
-	    let deadline = new Date('2020-06-23T20:32:00');
+	    let deadline = new Date('20200-06-23T20:32:00');
 	    setClock('timer', deadline);
 
 });
