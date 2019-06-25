@@ -18,4 +18,16 @@ $(document).ready(function() {
 		$('.modal').slideUp(200);
 	});
 
+	$('a[href="#sheldure"]').animate({
+		width: '250px',
+		opacity: 0.2,
+		background: '#fff'
+	}, 15000);
+
+	$('a[href="#sheldure"]').animate({
+		opacity: 1,
+		background: '#fff'
+	}, 1500)
+
+
 });
